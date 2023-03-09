@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mini Challenges</title>
+  </head>
+  <body>
+    <div class="one">
+      <p class="total-paragraph">Total : $0.00</p>
+      <button class="cola" data-amount="2">Lime Cola $2.00</button>
+      <button class="peanuts" data-amount="3">Salted Peanuts $3.00</button>
+      <button class="chocolate" data-amount="4">Chocolate Bar $4.00</button>
+      <button class="gummies" data-amount="6">Fruit Gummies $6.00</button>
+    </div>
+    <div>
+      <form>
+        <label for="amount">How Many?</label>
+        <input type="number" name="amount" id="amount" />
+        <label for="type">Which Coin?</label>
+        <select id="type" name="type">
+          <option value="penny">Penny</option>
+          <option value="nickle">Nickle</option>
+          <option value="dime">Dime</option>
+          <option value="quarter">Quarter</option>
+        </select>
+        <button>Make Money!</button>
+        <ul class="coin-container"></ul>
+      </form>
+    </div>
+    <div class="three">
+      <div class="bulb"></div>
+      <button class="onBtn">On</button>
+      <button class="offBtn">Off</button>
+      <button class="toggleBtn">Toggle</button>
+      <button class="endBtn">End</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
